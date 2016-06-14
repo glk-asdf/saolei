@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>扫雷</title>
+	<style type="text/css">
+	body{
+		background: url('6a82028f2d2fc93aa9691a6456c3306f_256_256.png') no-repeat ;
+	}
+	.box{
+		width: 600px;
+		height: 600px;
+		border:1px solid #5A81A4;
+		position: absolute;
+		margin: auto;
+		top: 0;
+		bottom:0;
+		left: 0;
+		right: 0;
+		background: #E5C68B;
+	}
+	.littlek{
+		width: 58px;
+		height: 58px;
+		text-align: center;
+		line-height: 58px;
+		border: 1px solid #9D6D29;
+		float: left;
+	}
+	.lei{
+
+	}
+	.bao::after{
+		content: '*';
+	}
+	.unlei{
+		background: #fff;
+	}
+	.qi::after{
+		content: '⍒';
+	}
+	h1{
+		position: absolute;
+		margin: auto;
+		top: 0;
+		height: 200px;
+		bottom: 0;
+		left: 60px;
+	}
+	</style>
+</head>
+<body>
+<h1>扫雷游戏</h1>
+	<div class="box">
+		
+	</div>
+</body>
+<script src="./js/jquery-1.12.0.js"></script>
+<script src="./js/index.js"></script>
+</html>
